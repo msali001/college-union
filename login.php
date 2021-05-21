@@ -25,7 +25,7 @@ include('connect.php');
 					
 				</div>
       <div class="logo">
-        <h1><a href="index.html">SAFI<span>Institute</span> <small>Rasiya Nagar</small></a></h1>
+        <h1><a href="index.html">NSS<span>College</span> <small>Ottapalam</small></a></h1>
       </div>
       <div class="clr"></div>
       <div class="slider">

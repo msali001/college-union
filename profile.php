@@ -107,7 +107,8 @@ $count=$row0['counts'];
 	$filetype = $_FILES[ "file" ][ "type" ];
 	if($filetype=="image/jpeg" || $filetype=="image/png" || $filetype=="image/jpg" )
 	{
-	$folder = "C:/wamp/www/colorflames/upload/";
+		// relative
+	$folder = "/upload/";
 							move_uploaded_file( $_FILES[ "file" ][ "tmp_name" ], "$folder" . $_FILES[ "file" ][ "name" ] );
 		
 		

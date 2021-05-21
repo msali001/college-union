@@ -50,8 +50,6 @@ $idd = $_SESSION[ 'uid' ];
 												<option value="csa ">Computer Science & Application AS</option>
 												<option value="jmc">Journalism & Mass Communication AS </ option>
 													<option value="eco "> Economics AS</option>
-													<option value="is"> Islamic Studies AS</option>
-													<option value="if"> Islamic Finance AS</option>
 									</td>
 									<td><input type="submit" value="Submit"</td>
 								</tr>

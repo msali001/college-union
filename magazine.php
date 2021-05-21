@@ -58,7 +58,9 @@ $uid=$_SESSION['uid'];
 	$filetype = $_FILES[ "file" ][ "type" ];
 	if($filetype=="application/pdf")
 	{
-	$folder = "C:/wamp/www/colorflames/upload/";
+		// modified to relative path from absolute
+	// $folder = "C:/wamp/www/colorflames/upload/";
+	$folder = "/upload/";
 							move_uploaded_file( $_FILES[ "file" ][ "tmp_name" ], "$folder" . $_FILES[ "file" ][ "name" ] );
 		
 				$qry = "INSERT INTO `magazine`(`union_id`, `m_name`,`file`,`status`) VALUES ('$uid','$name','$fileup','Pending')";

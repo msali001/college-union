@@ -132,14 +132,7 @@ $idd=$_GET['idd'];
             		<td> <label for="name">Economics AS</label></td>
             		<td> <input type="text" id="name" name="eco" class="text" value="<?php echo $row['economics'];?>"/></td>
 				</tr>
-           <tr>
-            		<td> <label for="name">Islamic Studies AS</label></td>
-            		<td> <input type="text" id="name" name="is" class="text" value="<?php echo $row['i_s'];?>"/></td>
-				</tr>
-           <tr>
-            		<td> <label for="name">Islamic Finance AS</label></td>
-            		<td> <input type="text" id="name" name="if" class="text" value="<?php echo $row['i_f'];?>"/></td>
-				</tr>
+           
 				<tr></tr>
 				<tr bgcolor="#B5B5B5">
 					<td> <label for="name"><b>User Name</b></label></td>

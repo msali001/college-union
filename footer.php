@@ -28,9 +28,9 @@
 					<h2><span>Contact</span> Us</h2>
 					<p>For Any Help or Updations Contact Us </p>
 					<p class="contact_info">
-						<span>Telephone:</span> <a href="tel:+918129313018">+918129313018</a> <br/>
+						<span>Telephone:</span> <a href="tel:+918100000000">+918100000000</a> <br/>
 						<span>E-mail:</span><br>
-	&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:Shibilpk@hotmail.com">mail@mail.com</a><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:admin@hotmail.com">mail@mail.com</a><br>
 				</div>
 				<div class="clr"></div>
 			</div>
@@ -38,7 +38,7 @@
 		<div class="footer">
 			<div class="footer_resize">
 				<p class="lf">Copyright &copy; <a href="#">Domain Name</a>. All Rights Reserved</p>
-				<p class="rf">Design by <a>Computer Science 2016-19</a>
+				<p class="rf">Design by <a>Computer Science 2018-21</a>
 				</p>
 				<div style="clear:both;"></div>
 			</div>
