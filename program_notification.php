@@ -56,7 +56,6 @@ document.getElementById("l1").disabled=false;
 											<option value="BCA  					"> BCA </option>
 											<option value="BSc.Computer Science			"> BSc.Computer Science</option>
 
-											<option value="M.A.Islamic Studies	"> M.A.Islamic Studies</option>
 											<option value="Microbiology		"> Microbiology</option>
 											<option value="M.A. Mass Communication & Journalism"> M.A. Mass Communication & Journalism</option>
 											<option value="MSc.Bio Technology 		"> MSc.Bio Technology</option>

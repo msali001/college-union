@@ -7,7 +7,7 @@ include('header.php');
 			<div class="content_resize">
 				<div class="mainbar">
 					<div class="article">
-						<h2><span>SAFI Institute of Advanced Study (SIAS)</span></h2>
+						<h2><span>NSS College Ottapalam</span></h2>
 						<p class="infopost">Posted on <span class="date">11 feb 2019</span> by <a href="#">Admin</a> </a>
 						</p>
 						<div class="clr"></div>

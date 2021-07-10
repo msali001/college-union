@@ -178,12 +178,11 @@ $idd=$_GET['idd'];
       $csa=$_POST['csa'];     
       $jmc=$_POST['jmc'];     
       $eco=$_POST['eco'];     
-      $is=$_POST['is'];   
-      $if=$_POST['if'];
+      
     $username=$_POST['username'];   
       $password=$_POST['password'];
 
-      $qry="UPDATE `union` SET `u_name`='$union',`year`='$year',`adviser`='$adviser',`chairman`='$chairman',`vice_chairman`='$visechairman',`secretary`='$secretary',`join_secretary`='$jsecretary',`uuc_1`='$UUC1',`uuc_2`='$UUC2',`finearts`='$finearts',`editor`='$editor',`general_captain`='$generalcaptain',`1_dc`='$stdc1',`2_dc`='$nddc2',`3_dc`='$rddc3',`pg_rep`='$pg',`biotech`='$biotec',`foodtech`='$foodtec',`micro`='$micro',`commerce`='$commerce',`management`='$ms',`cs`='$csa',`mcj`='$jmc',`economics`='$eco',`i_s`='$is',`i_f`='$if' WHERE `union_id`='$idd'";
+      $qry="UPDATE `union` SET `u_name`='$union',`year`='$year',`adviser`='$adviser',`chairman`='$chairman',`vice_chairman`='$visechairman',`secretary`='$secretary',`join_secretary`='$jsecretary',`uuc_1`='$UUC1',`uuc_2`='$UUC2',`finearts`='$finearts',`editor`='$editor',`general_captain`='$generalcaptain',`1_dc`='$stdc1',`2_dc`='$nddc2',`3_dc`='$rddc3',`pg_rep`='$pg',`biotech`='$biotec',`foodtech`='$foodtec',`micro`='$micro',`commerce`='$commerce',`management`='$ms',`cs`='$csa',`mcj`='$jmc',`economics`='$eco' WHERE `union_id`='$idd'";
 				
     
 $exe= mysqli_query( $con, $qry );

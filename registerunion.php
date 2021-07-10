@@ -124,14 +124,7 @@ include('header.php');
             		<td> <label for="name">Economics AS</label></td>
             		<td> <input type="text" id="name" name="eco" class="text" required/></td>
 				</tr>
-           <tr>
-            		<td> <label for="name">Islamic Studies AS</label></td>
-            		<td> <input type="text" id="name" name="is" class="text" required/></td>
-				</tr>
-           <tr>
-            		<td> <label for="name">Islamic Finance AS</label></td>
-            		<td> <input type="text" id="name" name="if" class="text" required/></td>
-				</tr>
+           
 				<tr></tr>
 				<tr bgcolor="#B5B5B5">
 					<td> <label for="name"><b>User Name</b></label></td>
@@ -174,9 +167,7 @@ include('header.php');
 			$ms=$_POST['ms'];			
 			$csa=$_POST['csa'];			
 			$jmc=$_POST['jmc'];			
-			$eco=$_POST['eco'];			
-			$is=$_POST['is'];		
-			$if=$_POST['if'];
+			$eco=$_POST['eco'];
 		$username=$_POST['username'];		
 			$password=$_POST['password'];		
 			
@@ -192,7 +183,7 @@ include('header.php');
 							}
 							
 		
-		$qry="INSERT INTO `union`(`union_id`, `u_name`, `year`, `adviser`, `chairman`, `vice_chairman`, `secretary`, `join_secretary`, `uuc_1`, `uuc_2`, `finearts`, `editor`, `general_captain`, `1_dc`, `2_dc`, `3_dc`, `pg_rep`, `biotech`, `foodtech`, `micro`, `commerce`, `management`, `cs`, `mcj`, `economics`, `i_s`, `i_f`) VALUES ('$max','$union','$year','$adviser','$chairman','$visechairman','$secretary','$jsecretary','$UUC1','$UUC2','$finearts','$editor','$generalcaptain','$stdc1','$nddc2','$rddc3','$pg','$biotec','$foodtec','$micro','$commerce','$ms','$csa','$jmc','$eco','$is','$if')";
+		$qry="INSERT INTO `union`(`union_id`, `u_name`, `year`, `adviser`, `chairman`, `vice_chairman`, `secretary`, `join_secretary`, `uuc_1`, `uuc_2`, `finearts`, `editor`, `general_captain`, `1_dc`, `2_dc`, `3_dc`, `pg_rep`, `biotech`, `foodtech`, `micro`, `commerce`, `management`, `cs`, `mcj`, `economics`) VALUES ('$max','$union','$year','$adviser','$chairman','$visechairman','$secretary','$jsecretary','$UUC1','$UUC2','$finearts','$editor','$generalcaptain','$stdc1','$nddc2','$rddc3','$pg','$biotec','$foodtec','$micro','$commerce','$ms','$csa','$jmc','$eco')";
 		
 $exe= mysqli_query( $con, $qry );
 		
