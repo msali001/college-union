@@ -54,7 +54,7 @@ $idd=$_SESSION['uid'];
 	$filetype = $_FILES[ "file" ][ "type" ];
 	if($filetype=="image/jpeg" || $filetype=="image/png" || $filetype=="image/gif"  )
 	{
-	$folder = "C:/wamp/www/colorflames/media/";
+	$folder = "media/";
 							move_uploaded_file( $_FILES[ "file" ][ "tmp_name" ], "$folder" . $_FILES[ "file" ][ "name" ] );
 		
 				$qry = "INSERT INTO `gallery`(`union_id`,`file`) VALUES ('$idd','$fileup')";

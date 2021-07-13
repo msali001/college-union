@@ -64,7 +64,7 @@ include('connect.php');
               </li>
             </ol>
           </form>
-          <?php
+          <?php 
 			if(isset($_POST['reg']))
 			{
 				$username=$_POST['username'];
@@ -97,6 +97,17 @@ include('connect.php');
 						?>
 						<script>
 			window.location.assign("union_home.php");
+			</script>
+						<?php
+					}
+					if(($username==$uname)&&($password==$pword)&&($type=='student'))
+					{
+						$_SESSION['uid']=$id;
+
+						$flag=1;
+						?>
+						<script>
+			window.location.assign("student_home.php");
 			</script>
 						<?php
 					}
